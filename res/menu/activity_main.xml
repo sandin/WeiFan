@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_send"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_send" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_menu_refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_refresh" />
+    
+     <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="300"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_settings" />
+
+</menu>
